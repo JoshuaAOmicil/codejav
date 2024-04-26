@@ -167,8 +167,8 @@ public class Tresor {
                 break;
         }
 
-        gr.setNbTresor(nbTresor);
-        gr.setNbPiege(nbPiege);
+        Grille.setNbTresor(nbTresor);
+        Grille.setNbPiege(nbPiege);
 
         return choix;
     }
